@@ -39,12 +39,23 @@
             padding: 20px;
             width: 100%;
         }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
         .section {
             margin-bottom: 20px;
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+        }
+        .section:hover {
+            transform: scale(1.05);
+            background-color: #e0f7fa;
         }
         .section h2 {
             margin-top: 0;
@@ -79,9 +90,10 @@
             <a href="#education">Education</a>
             <a href="#certifications">Certifications</a>
             <a href="#awards">Awards and Recognition</a>
-            <a href="Jaspreet_Singh_Jolly_Updated_Resume_3.pdf" class="download-btn" download>Download Resume</a>
+            <a href="resume.pdf" class="download-btn" download>Download Resume</a>
         </div>
         <div class="content">
+            <img src="profile-image.jpg" alt="Profile Picture" class="profile-image">
             <div class="section fade-in" id="summary">
                 <h2>Professional Summary</h2>
                 <p>Senior IT Infrastructure Consultant and Account Technology Strategist with over 22 years of experience in presales advisory, stakeholder engagement, and account management for enterprise clients. Proven ability to design and implement complex IT solutions using Microsoft 365, Azure, and Generative AI, while driving digital transformation and cloud strategies. Adept at building strong CXO-level relationships, aligning technical solutions with business objectives, and leading large-scale migrations from competitor platforms to M365. Demonstrated success in pre-sales consulting, delivering innovative solutions, and driving revenue growth through strategic technology roadmaps.</p>
